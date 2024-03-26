@@ -37,8 +37,8 @@ $APPLICATION->SetTitle("Мои объявления");
 		"DISPLAY_NAME" => "Y",
 		"DISPLAY_TOP_PAGER" => "N",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => "2",
-		"IBLOCK_TYPE" => "news",
+		"IBLOCK_ID" => "1",
+		"IBLOCK_TYPE" => "Advertisement",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
 		"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"LIST_FIELD_CODE" => array(
@@ -83,7 +83,7 @@ $APPLICATION->SetTitle("Мои объявления");
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "",
-			"detail" => "#ELEMENT_ID#/",
+			"detail" => "#ELEMENT_CODE#/",
 		)
 	),
 	false
